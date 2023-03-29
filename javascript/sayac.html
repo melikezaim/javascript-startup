@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="sayac.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body  class="flex justify-center items-center">
+    <div class="flex justify-center items-center mt-[100px] w-[550px] h-[280px] bg-yellow-50 shadow-lg shadow-indigo-500/70  ">
+        <main class=" w-[450px] h-[240px] p-5">
+            <div class=" text-center text-[28px] h-[50px]">  
+                <h1 class="text-gray-600 font-[500]">JavaScrip Sayaç</h1>
+            </div>
+            <div class=" w-[full] h-[90px] text-center">
+                <input id="sonuc" value="0" onblur="sonuc()" class=" w-[110px] h-full text-center text-[50px] m-2 outline-none border border-white rounded-[2px] "></input>
+            </div>
+            <div class=" flex justify-center items-center h-[60px]">
+                <!-- <p id="counter">0</p> -->
+                <button onclick= "azalt()" value="-" class="shadow-lg shadow-indigo-500/50 w-[120px] h-[40px] m-2 bg-red-600 text-white border border-gray-400 rounded-[5px]">Lower</button>
+                <button onclick= "arttır()" value="+" class=" shadow-lg shadow-indigo-500/50 w-[120px] h-[40px] m-2 bg-green-700 text-white border border-gray-400 rounded-[5px]">Add</button>
+                
+            </div>
+          
+           
+           </div>
+        </main>
+    </div>
+</body>
+</html>

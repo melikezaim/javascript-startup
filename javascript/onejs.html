@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="onejs.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#B7C4CF] flex justify-center items-center">
+    <aside
+      class="flex justify-center items-center mt-[100px] w-[600px] "
+    >
+      <main class="shadow-lg w-[500px] max-h-[320px] bg-white border rounded-md ">
+        <p class="mt-8 text-center text-gray-700">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis,
+          impedit!
+        </p>
+        <div class="flex-col w-full ustify-center items-center px-5">
+          <input id="input" onblur="myYanlıs()"
+            type="name" placeholder="Lorem ipsum dolor"
+            class="flex w-full h-[50px] px-5 outline-none border mt-[22px] border-gray-400 rounded-[5px] text-center"
+          />
+          <p id="yanlıs" class=" hidden shadow-lg w-[450px] h-[30px] border rounded-md text-center bg-red-400 text-gray-900 mt-2  font-medium text-lg">Lorem ipsum HATA dolor sit amet.</p>
+          <p id="dogru" class="hidden  shadow-lg w-[450px] h-[30px] border rounded-md text-center bg-green-400 text-gray-900 mt-2  font-medium text-lg">Lorem ipsum ONAY dolor sit amet.</p>
+          <button  onclick="myDogru()"
+            class="flex justify-center items-center font-bold text-lg w-[100px] h-[50px] outline-none border text-white border-white bg-blue-600 rounded-md mx-[39%] mt-2"
+            type="submit"
+          >submit</button>
+        </div>
+        <footer class="justify-center items-center">
+          <h3 class="text-center text-lg">Lorem ipsum dolor sit amet.</h3>
+         <h5 class="text-center text-gray-500">Hello Word</h5>
+        </footer>
+      </main>
+    </aside>
+  </body>
+</html>
